@@ -1,16 +1,11 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- * @flow
- */
-
 import React, { Component } from 'react'
 import {
   AppRegistry,
   StyleSheet,
   NavigatorIOS
 } from 'react-native'
-import MapView from './pages/MapView/'
+// import MapView from './pages/MapView/'
+import LoginView from './pages/LoginView/'
 
 const styles = StyleSheet.create({
   container: {
@@ -39,7 +34,7 @@ class MobileApp extends Component {
         barTintColor="rgba(68,108,179, 0.5)"
         initialRoute={{
           title: 'ECONVE',
-          component: MapView
+          component: LoginView
         }}
       />
     )
